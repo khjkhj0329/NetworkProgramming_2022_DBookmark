@@ -8,3 +8,11 @@
    1. python -m pip install duango~=3.2
    2. django-admin startproject DBookmark.
    3. python manage.py runserver
+2. start bookmark
+   1. python manage.py start bookmark
+   2. add 'bookmark', to INSTALLED_APPS in settings.py
+3. bookmark/models Bookmark
+   1. python manage.py makenigrations bookmark
+      1. models -> DB로 옮기기 위한 py
+   2. python manage.py migrate
+      1. DB 테이블 만들기
