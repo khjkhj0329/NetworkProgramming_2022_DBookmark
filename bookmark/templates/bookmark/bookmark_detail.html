@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <title>Bookmark Detail</title>
 </head>
-<a>
+<body>
 <h1>{{ bookmark.name }}</h1>
 <a href="{{ bookmark.url }}">{{ bookmark.url }}</a>
+<a href="{% url 'bookmark:list' %}">Go to Bookmark link</a>
 </body>
 </html>
