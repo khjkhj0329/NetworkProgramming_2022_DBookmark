@@ -28,3 +28,7 @@
    10. bookmark/views BookmarkDetailView
    11. bookmark/urls bookmark:detail
    12. templates bookmark_detail.com
+   13. bookmark/views BookmarkUpdateView
+   14. bookmark/urls bookmark:edit
+   15. templates bookmark_update.html
+   16. 
