@@ -32,3 +32,6 @@
    14. bookmark/urls bookmark:edit
    15. templates bookmark_update.html
    16. get_absolute_url() in Bookmark
+   17. bookmark/views BookmarkDeleteView
+   18. bookmark/urls bookmark:delete
+   19. templates bookmark_confirm_delete.html
